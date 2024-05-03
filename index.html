@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Vegan recipes generator</title>
   </head>
   <body>
@@ -26,17 +27,20 @@
       </header>
 
       <main>
-        <form action="">
+        <form action="" id="generator-form">
           <input
             type="text"
             placeholder="Enter your ingredients"
             class="ingredients"
+            required
           />
           <input type="submit" class="submit" />
         </form>
       </main>
 
-      <div class="recipe"><p>Your tasty recipe will show here soon...</p></div>
+      <div class="recipe" id="recipe-text">
+        <p>Your tasty recipe will show here soon...</p>
+      </div>
 
       <footer>
         This AI project was coded by

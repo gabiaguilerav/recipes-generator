@@ -75,6 +75,10 @@ form {
   padding: 20px auto;
   color: #374850;
 }
+.Typewriter__wrapper {
+  color: #374850;
+  line-height: 2;
+}
 
 footer {
   color: #374850;
