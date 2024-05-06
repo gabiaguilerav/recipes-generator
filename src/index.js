@@ -3,7 +3,7 @@ function displayRecipe(response) {
     strings: response.data.answer,
     autoStart: true,
     cursor: null,
-    delay: 6,
+    delay: 15,
   });
 }
 
