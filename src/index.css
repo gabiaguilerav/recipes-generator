@@ -1,3 +1,4 @@
+/*GENERAL*/
 body {
   margin: 0 auto;
   font-family: sans-serif;
@@ -7,13 +8,16 @@ body {
 .container {
   max-width: 600px;
   margin: 80px auto;
-  text-align: center;
+  justify-content: center;
 }
 
+/*HEADER*/
 h1 {
   font-size: 36px;
   color: #374850;
+  text-align: center;
 }
+
 #icon-food {
   font-size: 34px;
 }
@@ -22,14 +26,21 @@ h2 {
   color: #374850;
   font-weight: 500;
   font-size: 20px;
+  text-align: center;
 }
 
-form {
+/*FORM*/
+.form-container {
   background: #dde0ab;
   max-width: 400px;
-  text-align: center;
   margin: 40px auto;
   border-radius: 10px;
+  padding: 20px 0;
+}
+
+#generator-form {
+  max-width: 400px;
+  text-align: center;
 }
 
 .ingredients {
@@ -38,7 +49,6 @@ form {
   border: 1px solid #374850;
   transition: all 150ms ease-in-out;
   padding: 10px;
-  margin: 20px auto;
   border-radius: 10px;
 }
 
@@ -55,7 +65,6 @@ form {
   border: 1px solid #f6f7f5;
   transition: all 150ms ease-in-out;
   padding: 10px;
-  margin: 20px auto;
   border-radius: 10px;
 }
 
@@ -65,24 +74,38 @@ form {
   border: 1px solid #f6f7f5;
 }
 
-.recipe {
+.example {
+  color: #374850;
+  text-align: left;
+  margin-top: 7px;
+  padding-left: 50px;
+}
+
+#recipe {
   border: 2px solid #fd5959;
   margin: 20px auto;
   border-radius: 10px;
 }
 
-.recipe p {
+#recipe p {
   padding: 20px 30px;
   color: #374850;
 }
+
 .Typewriter__wrapper {
   color: #374850;
   line-height: 2;
 }
 
+.recipe-hidden {
+  display: none;
+}
+
+/*FOOTER*/
 footer {
   color: #374850;
   margin-top: 50px;
+  text-align: center;
 }
 
 footer a {

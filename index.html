@@ -28,20 +28,23 @@
       </header>
 
       <main>
-        <form action="" id="generator-form">
-          <input
-            type="text"
-            placeholder="Enter your ingredients"
-            class="ingredients"
-            required
-            id="user-instructions"
-          />
-          <input type="submit" class="submit" />
-        </form>
+        <div class="form-container">
+          <form action="" id="generator-form">
+            <input
+              type="text"
+              placeholder="Enter your ingredients"
+              class="ingredients"
+              required
+              id="user-instructions"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <small class="example">i.e: sweet potato, salad, tofu</small>
+        </div>
       </main>
 
-      <div class="recipe">
-        <p id="recipe-text">Your tasty recipe will show here soon...</p>
+      <div class="recipe-hidden" id="recipe">
+        <p id="recipe-text">⏳ Your tasty recipe will show here soon...</p>
       </div>
 
       <footer>
